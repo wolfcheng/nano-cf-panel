@@ -111,7 +111,10 @@ host_key=''
 ```
 uwsgi --ini panel.ini
 ```
-
+可以试一下：
+```
+nohup uwsgi --ini panel.ini >/dev/null 2>&1 &
+```
 使用浏览器访问
 
 ### 三、uwsgi+django
