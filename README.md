@@ -135,7 +135,10 @@ apt install python3-pip
 ```
 pip3 install -r requestment.txt
 ```
-
+我给作者增加一个依赖安装，这个作者的TXT里面没有
+```
+pip3 install mysqlclient
+```
 进入项目根目录，目录结构如下：
 
 ```
